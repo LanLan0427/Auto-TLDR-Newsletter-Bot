@@ -2,10 +2,9 @@
 
 這是一個全自動化的科技新聞彙整機器人。它能夠自動讀取 Gmail 中的 TLDR 電子報，利用 Google Gemini AI 進行分析與繁體中文摘要，並將整理好的懶人包自動推播至 Discord 頻道。
 
-
 ## 🏗️ 系統架構 (System Architecture)
 
-
+```mermaid
 graph LR
     A[📧 Gmail <br>(TLDR Emails)] -->|Trigger & Fetch| B(⚙️ Google Apps Script <br>+ Gemini AI Model)
     B -->|Summarize & Format| C[💬 Discord Webhook <br>(Markdown Notification)]
