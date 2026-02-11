@@ -12,6 +12,7 @@ graph LR
     style A fill:#ea4335,stroke:#333,stroke-width:2px,color:white
     style B fill:#4285f4,stroke:#333,stroke-width:2px,color:white
     style C fill:#5865F2,stroke:#333,stroke-width:2px,color:white
+```
 
 ## ✨ 核心功能 (Key Features)
 
