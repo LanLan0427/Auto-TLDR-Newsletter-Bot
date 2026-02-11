@@ -39,4 +39,4 @@
 * 設計了 API 呼叫的速率限制 (Rate Limiting) 機制以符合 Free Tier 配額。
 
 ---
-*Developed by [你的名字]*
+*Developed by JHIH-KAI CHEN*
