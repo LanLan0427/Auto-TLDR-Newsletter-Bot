@@ -6,8 +6,8 @@
 
 ```mermaid
 graph LR
-    A[📧 Gmail <br>(TLDR Emails)] -->|Trigger & Fetch| B(⚙️ Google Apps Script <br>+ Gemini AI Model)
-    B -->|Summarize & Format| C[💬 Discord Webhook <br>(Markdown Notification)]
+    A["📧 Gmail <br>(TLDR Emails)"] -->|Trigger & Fetch| B("⚙️ Google Apps Script <br>(Gemini AI Model)")
+    B -->|Summarize & Format| C["💬 Discord Webhook <br>(Markdown Notification)"]
     
     style A fill:#ea4335,stroke:#333,stroke-width:2px,color:white
     style B fill:#4285f4,stroke:#333,stroke-width:2px,color:white
